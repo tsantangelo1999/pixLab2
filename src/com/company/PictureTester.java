@@ -106,7 +106,7 @@ public class PictureTester
     public static void testEdgeDetection()
     {
         Picture swan = new Picture("swan.jpg");
-        swan.edgeDetection(10);
+        swan.edgeDetection(15);
         swan.explore();
     }
 
@@ -125,7 +125,7 @@ public class PictureTester
         //testKeepOnlyGreen();
         //testNegate();
         //testGrayscale();
-        testFixUnderwater();
+        //testFixUnderwater();
         //testMirrorVertical();
         //testMirrorTemple();
         //testMirrorArms();
@@ -133,7 +133,7 @@ public class PictureTester
         //testMirrorDiagonal();
         //testCollage();
         //testCopy();
-        //testEdgeDetection();
+        testEdgeDetection();
         //testEdgeDetection2();
         //testChromakey();
         //testEncodeAndDecode();
